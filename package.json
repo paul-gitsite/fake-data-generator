@@ -1,0 +1,24 @@
+{
+  "name": "fakedatagenerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^9.4.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "fakedatagenerator": "file:",
+    "fast-csv": "^5.0.2",
+    "fs": "^0.0.1-security",
+    "mysql2": "^3.12.0",
+    "nodemon": "^3.1.9",
+    "pg": "^8.13.1"
+  }
+}
